@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ignored tests",
+    "messageRegex": "IllegalState.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Infrastructure problems",
+    "messageRegex": "RuntimeException.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Product problems",
+    "messageRegex": "Error while test.*",
+    "matchedStatuses": [
+      "failed"
+    ]
+  }
+]
